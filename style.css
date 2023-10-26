@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: salmon ;
+    background-color:#A52A2A ;
+}
+
+.main{
+    border: 30px solid #A52A2A ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+  
+
+
+#main{
+     /* border: 2px solid  silver; */
+     height: 82vh;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px;
+}
+
+
+#ptop{
+    height: 10vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 0 90px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.elem{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* font-size: 1rem; */
+}
+
+.box{
+    font-family: "gilroy";
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+
+#pbtm{
+    /* border-left-color:2px solid salmon ; */
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    height: calc(100% - 80px);
+    width: 100%;
+    /* background-color: black; */
+}
+
+.bubble {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(214, 41, 41);
+    font-size: 1rem;
+    font-family: "gilroy";
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.bubble:hover {
+    /* transition: all ease 0.3s; */
+    font-size: 1.3rem ;
+    padding: 2px;
+    color: white;
+    border: 2px solid salmon;
+    cursor: pointer;
+     background-color: rgb(90, 21, 21);
+}
+
